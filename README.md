@@ -64,6 +64,6 @@ Beyin tümörü sınıflandırma modelinin performansı aşağıdaki metrikler i
 - Veri artırma (augmentation) teknikleri uygulanarak modelin genelleme yeteneği geliştirilmiştir.  
 - Notebook içerisinde test görüntüleri için tahmin ve görselleştirme hücreleri eklenmiştir; yanlış ve doğru tahminler hızlıca incelenebilir.  
 
-##Link 
+## Link 
 https://www.kaggle.com/code/yamurnder/brain-tumor-detection-son1 
 
