@@ -6,7 +6,7 @@
   
 Projede yaklaşık 7023 MR görüntüsünden oluşan dört sınıflı bir veri seti  kullanılmıştır: meningioma, glioma, pituitary ve notumor. Eğitim ve doğrulama için veri artırma (data augmentation) teknikleri uygulanmıştır.
 
-Model olarak kendi geliştirdiğim CNN mimarisi kullanılmıştır. Eğitim süreci SGD optimizasyonu ve MSE kaybı ile gerçekleştirilmiş, EarlyStopping veya checkpoint yöntemleri ile eğitim takip edilmiştir.
+Model olarak kendi geliştirdiğim CNN mimarisi kullanılmıştır. Eğitim süreci SGD optimizasyonu ve MSE kaybı ile gerçekleştirilmiştir.
 
 Modelin performansı doğruluk ve sınıflandırma raporlarıyla değerlendirilmiştir.
 
