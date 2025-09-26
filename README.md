@@ -59,7 +59,7 @@ Beyin tümörü sınıflandırma modelinin performansı aşağıdaki metrikler i
 ## EKLER
 
 - Model, GPU destekli bir ortamda (Kaggle) eğitilmiş ve test edilmiştir, böylece eğitim süresi önemli ölçüde kısaltılmıştır.  
-- Projede ayrı bir kullanıcı arayüzü (UI) veya deployment script’i bulunmamaktadır; model doğrudan notebook üzerinden çalıştırılarak MR görüntüleri üzerinde test edilebilir.  
+- Projede model doğrudan notebook üzerinden çalıştırılarak MR görüntüleri üzerinde test edilebilir.  
 - Eğitim ve test verileri organize edilmiş klasörler hâlinde tutulmuştur (meningioma, glioma, pituitary, notumor).  
 - Veri artırma (augmentation) teknikleri uygulanarak modelin genelleme yeteneği geliştirilmiştir.  
 - Notebook içerisinde test görüntüleri için tahmin ve görselleştirme hücreleri eklenmiştir; yanlış ve doğru tahminler hızlıca incelenebilir.
