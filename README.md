@@ -71,8 +71,7 @@ Bu proje, beyin MR görüntülerinden tümör varlığını tespit eden ve sın�
 **Gelecek Çalışmalar:**
 
 - **MR Görüntüleri için Otomatik Ön İşleme:** Gürültü giderme, normalize etme ve segmentasyon gibi işlemler otomatik hâle getirilebilir.  
-- **Çoklu Görüntü Analizi:** Tek bir hasta için farklı açılardan alınmış MR görüntülerinin birlikte değerlendirilmesi sağlanabilir.  
-- **3D Veri Desteği:** Model, 2D yerine 3D MR görüntüleri üzerinde eğitilerek daha detaylı sınıflandırma yapılabilir.  
+- **Çoklu Görüntü Analizi:** Tek bir hasta için farklı açılardan alınmış MR görüntülerinin birlikte değerlendirilmesi sağlanabilir.    
 - **Tümör Büyüme Tahmini:** Gelecek çalışmalar, aynı hastanın farklı zamanlardaki MR görüntülerini kullanarak tümör büyümesini tahmin etmeyi hedefleyebilir.  
 - **Klinik Önceliklendirme:** Model, kritik veya acil tümör türlerini tespit ederek klinik karar destek sistemlerine entegre edilebilir.  
 
