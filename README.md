@@ -4,7 +4,7 @@
 
 - Bu proje, beyin MR görüntülerinden tümör varlığını tespit edip sınıflandırmayı amaçlayan bir derin öğrenme uygulamasıdır. Amaç, beyin MR görüntülerinden tümör varlığını tespit edip sınıflandırmaktır.
   
-Projede yaklaşık 7023 MR görüntüsünden oluşan dört sınıflı bir veri seti (`İLKVERİSET_DICOMlar`) kullanılmıştır: meningioma, glioma, pituitary ve notumor. Eğitim ve doğrulama için veri artırma (data augmentation) teknikleri uygulanmıştır.
+Projede yaklaşık 7023 MR görüntüsünden oluşan dört sınıflı bir veri seti  kullanılmıştır: meningioma, glioma, pituitary ve notumor. Eğitim ve doğrulama için veri artırma (data augmentation) teknikleri uygulanmıştır.
 
 Model olarak kendi geliştirdiğim CNN mimarisi kullanılmıştır. Eğitim süreci Adamax optimizasyonu ve MSE kaybı ile gerçekleştirilmiş, EarlyStopping veya checkpoint yöntemleri ile eğitim takip edilmiştir.
 
