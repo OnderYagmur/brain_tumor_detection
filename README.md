@@ -1,6 +1,6 @@
 # 🧠 Beyin Tümörü Tespiti - Derin Öğrenme Projesi 
 
-##Giriş
+## Giriş
 
 - Bu proje, beyin MR görüntülerinden tümör varlığını tespit edip sınıflandırmayı amaçlayan bir derin öğrenme uygulamasıdır. Amaç, beyin MR görüntülerinden tümör varlığını tespit edip sınıflandırmaktır.
   
