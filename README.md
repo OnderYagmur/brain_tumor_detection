@@ -62,7 +62,20 @@ Beyin tümörü sınıflandırma modelinin performansı aşağıdaki metrikler i
 - Projede ayrı bir kullanıcı arayüzü (UI) veya deployment script’i bulunmamaktadır; model doğrudan notebook üzerinden çalıştırılarak MR görüntüleri üzerinde test edilebilir.  
 - Eğitim ve test verileri organize edilmiş klasörler hâlinde tutulmuştur (meningioma, glioma, pituitary, notumor).  
 - Veri artırma (augmentation) teknikleri uygulanarak modelin genelleme yeteneği geliştirilmiştir.  
-- Notebook içerisinde test görüntüleri için tahmin ve görselleştirme hücreleri eklenmiştir; yanlış ve doğru tahminler hızlıca incelenebilir.  
+- Notebook içerisinde test görüntüleri için tahmin ve görselleştirme hücreleri eklenmiştir; yanlış ve doğru tahminler hızlıca incelenebilir.
+
+  ## SONUÇ VE GELECEK ÇALIŞMALAR
+
+Bu proje, beyin MR görüntülerinden tümör varlığını tespit eden ve sınıflandıran bir derin öğrenme modeli sunmaktadır. Model, test verisi üzerinde sınıf bazlı yüksek doğruluk sağlamış ve overfitting olmadan genel bir performans göstermiştir.
+
+**Gelecek Çalışmalar:**
+
+- **MR Görüntüleri için Otomatik Ön İşleme:** Gürültü giderme, normalize etme ve segmentasyon gibi işlemler otomatik hâle getirilebilir.  
+- **Çoklu Görüntü Analizi:** Tek bir hasta için farklı açılardan alınmış MR görüntülerinin birlikte değerlendirilmesi sağlanabilir.  
+- **3D Veri Desteği:** Model, 2D yerine 3D MR görüntüleri üzerinde eğitilerek daha detaylı sınıflandırma yapılabilir.  
+- **Tümör Büyüme Tahmini:** Gelecek çalışmalar, aynı hastanın farklı zamanlardaki MR görüntülerini kullanarak tümör büyümesini tahmin etmeyi hedefleyebilir.  
+- **Klinik Önceliklendirme:** Model, kritik veya acil tümör türlerini tespit ederek klinik karar destek sistemlerine entegre edilebilir.  
+
 
 ## Link 
 https://www.kaggle.com/code/yamurnder/brain-tumor-detection-son1 
